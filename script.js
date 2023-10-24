@@ -1,12 +1,11 @@
 const pwd = document.querySelector("#pwd");
 const confirmpwd = document.querySelector("#confirmpwd");
 const span = document.querySelector("span.invalid")
-/*
-get password and confirmpassword
-check if they match
-if they do match dont do anything 
-if they don't match change their css class
-*/
+const form = document.getElementById("form");
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+})
 
 pwd.addEventListener("input", e => {
     if(e.target.value == confirmpwd.value) {
@@ -36,3 +35,4 @@ confirmpwd.addEventListener("input", e => {
     }
   
 });
+
