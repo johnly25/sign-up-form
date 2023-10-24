@@ -64,13 +64,14 @@ ul {
     justify-content: center;
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
-    padding: 150px 8% 50px 8%;
+    padding: 0 8% 50px 8%;
     background: #fafbfc;
 }
 
 .form {
     padding: 15px 0 15px 0;
     font-family: 'Lato', sans-serif;
+    flex: 1;
 }
 
 .sign-up {
